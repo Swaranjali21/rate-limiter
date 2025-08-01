@@ -14,7 +14,14 @@ A production-ready API demonstrating rate limiting using Go, Fiber, Redis, and H
 
 ## Architecture
 
-``` ├── config/ # Configuration management ├── handlers/ # HTTP request handlers ├── middleware/ # Rate limiting middleware ├── router/ # Route configuration └── main.go # Application entry point ``` 
+```
+├── config/         # Configuration management
+├── handlers/       # HTTP request handlers
+├── middleware/     # Rate limiting middleware
+├── router/         # Route configuration
+└── main.go         # Application entry point
+```
+
 
 
 ## Rate Limiting Algorithm
